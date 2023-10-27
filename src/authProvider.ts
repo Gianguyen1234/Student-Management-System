@@ -3,16 +3,16 @@ import nookies from "nookies";
 
 const mockUsers = [
   {
-    name: "John Doe",
+    name: "Quang Vinh",
     email: "johndoe@mail.com",
     roles: ["admin"],
-    avatar: "https://i.pravatar.cc/150?img=1",
+    avatar: "https://i.pravatar.cc/150?img=3",
   },
   {
-    name: "Jane Doe",
+    name: "Tien Anh",
     email: "janedoe@mail.com",
     roles: ["editor"],
-    avatar: "https://i.pravatar.cc/150?img=1",
+    avatar: "https://i.pravatar.cc/150?img=4",
   },
 ];
 

@@ -10,7 +10,7 @@ export default function Login() {
     <AuthPage
       type="login"
       formProps={{
-        initialValues: { email: "demo@refine.dev", password: "demodemo" },
+        initialValues: { email: "demo@gmail.com", password: "demodemo" },
       }}
       title={
         <ThemedTitleV2
