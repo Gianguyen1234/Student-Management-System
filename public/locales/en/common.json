@@ -143,8 +143,8 @@
     "users": "Users",
     "fields": {
       "id": "Id",
-      "title": "Title",
-      "slug": "Slug",
+      "firstName": "First Name",
+      "lastName":"Last Name",
       "email": "Email",
       "status": "Status",
       "birthday":"Birthday",
@@ -155,13 +155,14 @@
       "create": "Create User",
       "edit": "Edit User",
       "list": "Users",
-      "show": "Show Users"
+      "show": "Show User"
     },
     "posts": {
       "posts": "Posts",
       "fields": {
         "id": "Id",
-        "firstName": "First Name",
+        "title": "Title",
+        "slug":"Slug",
         "content": "Content",
         "hit": "Hit",
         "category": "Category",
@@ -178,7 +179,7 @@
         "create": "Create Post",
         "edit": "Edit Post",
         "list": "Posts",
-        "show": "Show Posts"
+        "show": "Show Post"
       }
   },
   "documentTitle": {
@@ -214,6 +215,7 @@
     }
   },
   "table": {
-    "actions": "Actions"
+    "actions": "Action"
   }
+  
 }}
