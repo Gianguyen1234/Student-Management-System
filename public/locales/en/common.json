@@ -158,7 +158,7 @@
       "show": "Show Users"
     },
     "posts": {
-      "users": "Posts",
+      "posts": "Posts",
       "fields": {
         "id": "Id",
         "firstName": "First Name",
