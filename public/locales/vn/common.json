@@ -137,53 +137,52 @@
       "edit": "Chỉnh sửa",
       "list": "Danh sách",
       "show": "Hiển thị danh mục"
-    },
-        "users": {
-          "users": "Người dùng",
-          "fields": {
-            "id": "ID",
-            "firstName": "Tên",
-            "lastName": "Họ",
-            "email": "Email",
-            "status": "Trạng thái",
-            "birthday": "Ngày sinh",
-            "skills": "Kỹ năng",
-            "avatar": "Ảnh đại diện"
-          },
-          "titles": {
-            "create": "Tạo Người dùng",
-            "edit": "Chỉnh sửa Người dùng",
-            "list": "Danh sách Người dùng",
-            "show": "Xem Người dùng"
-          },
-          "posts": {
-            "posts": "Bài viết",
-            "fields": {
-              "id": "ID",
-              "title": "Tiêu đề",
-              "slug": "Đường dẫn",
-              "content": "Nội dung",
-              "hit": "Lượt xem",
-              "category": "Danh mục",
-              "user": "Người dùng",
-              "status": "Trạng thái",
-              "status_color": "Màu trạng thái",
-              "createdAt": "Ngày tạo",
-              "publishedAt": "Ngày xuất bản",
-              "image": "Hình ảnh",
-              "tag": "Thẻ",
-              "language": "Ngôn ngữ"
-            },
-            "titles": {
-              "create": "Tạo Bài viết",
-              "edit": "Chỉnh sửa Bài viết",
-              "list": "Danh sách Bài viết",
-              "show": "Xem Bài viết"
-            }
-          }
-        }
-      
+    }
   },
+  "users": {
+      "users": "Người dùng",
+      "fields": {
+        "id": "ID",
+        "firstName": "Tên",
+        "lastName": "Họ",
+        "email": "Email",
+        "status": "Trạng thái",
+        "birthday": "Ngày sinh",
+        "skills": "Kỹ năng",
+        "avatar": "Ảnh đại diện"
+      },
+      "titles": {
+        "create": "Tạo Người dùng",
+        "edit": "Chỉnh sửa Người dùng",
+        "list": "Danh sách Người dùng",
+        "show": "Xem Người dùng"
+      } 
+    },
+    "posts": {
+      "posts": "Bài viết",
+      "fields": {
+        "id": "ID",
+        "title": "Tiêu đề",
+        "slug": "Đường dẫn",
+        "content": "Nội dung",
+        "hit": "Lượt xem",
+        "category": "Danh mục",
+        "user": "Người dùng",
+        "status": "Trạng thái",
+        "status_color": "Màu trạng thái",
+        "createdAt": "Ngày tạo",
+        "publishedAt": "Ngày xuất bản",
+        "image": "Hình ảnh",
+        "tag": "Thẻ",
+        "language": "Ngôn ngữ"
+      },
+      "titles": {
+        "create": "Tạo Bài viết",
+        "edit": "Chỉnh sửa Bài viết",
+        "list": "Danh sách Bài viết",
+        "show": "Xem Bài viết"
+      }
+    },
   
   "documentTitle": {
     "default": "refine",

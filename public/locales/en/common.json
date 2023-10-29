@@ -156,8 +156,10 @@
       "edit": "Edit User",
       "list": "Users",
       "show": "Show User"
-    },
-    "posts": {
+    }
+  },
+
+  "posts": {
       "posts": "Posts",
       "fields": {
         "id": "Id",
@@ -181,7 +183,7 @@
         "list": "Posts",
         "show": "Show Post"
       }
-  },
+  }, 
   "documentTitle": {
     "default": "refine",
     "suffix": " | refine",
