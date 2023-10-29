@@ -5,7 +5,6 @@ import {
   useNotificationProvider,
 } from "@refinedev/antd";
 import { GitHubBanner, Refine } from "@refinedev/core";
-import { DevtoolsPanel, DevtoolsProvider } from "@refinedev/devtools";
 import { RefineKbar, RefineKbarProvider } from "@refinedev/kbar";
 import routerProvider, {
   DocumentTitleHandler,
@@ -70,7 +69,6 @@ function MyApp({ Component, pageProps }: AppPropsWithLayout): JSX.Element {
       <RefineKbarProvider>
         <ColorModeContextProvider>
           <AntdApp>
-            <DevtoolsProvider>
               <Refine
                 routerProvider={routerProvider}
                 dataProvider={dataProvider(API_URL)}
@@ -110,8 +108,6 @@ function MyApp({ Component, pageProps }: AppPropsWithLayout): JSX.Element {
                 <UnsavedChangesNotifier />
                 <DocumentTitleHandler />
               </Refine>
-              <DevtoolsPanel />
-            </DevtoolsProvider>
           </AntdApp>
         </ColorModeContextProvider>
       </RefineKbarProvider>
