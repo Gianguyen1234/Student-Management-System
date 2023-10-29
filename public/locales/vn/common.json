@@ -157,8 +157,8 @@
         "list": "Danh sách Người dùng",
         "show": "Xem Người dùng"
       } 
-    },
-    "posts": {
+  },
+  "posts": {
       "posts": "Bài viết",
       "fields": {
         "id": "ID",
@@ -173,7 +173,7 @@
         "createdAt": "Ngày tạo",
         "publishedAt": "Ngày xuất bản",
         "image": "Hình ảnh",
-        "tag": "Thẻ",
+        "tags": "Thẻ",
         "language": "Ngôn ngữ"
       },
       "titles": {
@@ -182,8 +182,8 @@
         "list": "Danh sách Bài viết",
         "show": "Xem Bài viết"
       }
-    },
-  
+  },
+
   "documentTitle": {
     "default": "refine",
     "suffix": " | refine",
@@ -215,7 +215,6 @@
       "create": "Tạo mới bài viết | refine",
       "clone": "#{{id}} Sao chép bài viết | refine"
     }
-
   },
   "table": {
     "actions": "Chỉnh sửa"

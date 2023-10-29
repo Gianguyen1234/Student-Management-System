@@ -174,7 +174,7 @@
         "createdAt": "Created At",
         "publishedAt": "Published At",
         "image":"Image",
-        "tag":"Tag",
+        "tags":"Tag",
         "language":"Language"
       },
       "titles": {
