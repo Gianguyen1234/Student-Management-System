@@ -8,10 +8,8 @@ import { GitHubBanner, Refine } from "@refinedev/core";
 import { RefineKbar, RefineKbarProvider } from "@refinedev/kbar";
 import routerProvider, {
   DocumentTitleHandler,
-  NavigateToResource,
   UnsavedChangesNotifier,
 } from "@refinedev/nextjs-router";
-import { BrowserRouter, Outlet, Route, Routes } from "react-router-dom";
 import type { NextPage } from "next";
 import { AppProps } from "next/app";
 

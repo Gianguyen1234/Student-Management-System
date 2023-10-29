@@ -49,7 +49,7 @@ export const Header: React.FC<RefineThemedLayoutV2HeaderProps> = ({
       ),
       label: (
         <Link href="/" locale={lang}>
-          {lang === "en" ? "English" : "German"}
+          {lang === "en" ? "English" : "VietNamese"}
         </Link>
       ),
     }));
@@ -81,7 +81,7 @@ export const Header: React.FC<RefineThemedLayoutV2HeaderProps> = ({
           <Button type="text">
             <Space>
               <Avatar size={16} src={`/images/flags/${currentLocale}.svg`} />
-              {currentLocale === "en" ? "English" : "German"}
+              {currentLocale === "en" ? "English" : "Vietnamese"}
               <DownOutlined />
             </Space>
           </Button>
