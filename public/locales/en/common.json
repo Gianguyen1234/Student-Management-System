@@ -139,6 +139,48 @@
       "show": "Show Category"
     }
   },
+  "users": {
+    "users": "Users",
+    "fields": {
+      "id": "Id",
+      "title": "Title",
+      "slug": "Slug",
+      "email": "Email",
+      "status": "Status",
+      "birthday":"Birthday",
+      "skills": "Skills",
+      "avatar": "Avatar"
+    },
+    "titles": {
+      "create": "Create User",
+      "edit": "Edit User",
+      "list": "Users",
+      "show": "Show Users"
+    },
+    "posts": {
+      "users": "Posts",
+      "fields": {
+        "id": "Id",
+        "firstName": "First Name",
+        "content": "Content",
+        "hit": "Hit",
+        "category": "Category",
+        "user":"User",
+        "status": "Status",
+        "status_color":"Status Color",
+        "createdAt": "Created At",
+        "publishedAt": "Published At",
+        "image":"Image",
+        "tag":"Tag",
+        "language":"Language"
+      },
+      "titles": {
+        "create": "Create Post",
+        "edit": "Edit Post",
+        "list": "Posts",
+        "show": "Show Posts"
+      }
+  },
   "documentTitle": {
     "default": "refine",
     "suffix": " | refine",
@@ -155,9 +197,23 @@
       "edit": "#{{id}} Edit Category | refine",
       "create": "Create new Category | refine",
       "clone": "#{{id}} Clone Category | refine"
+    },
+    "users": {
+      "list": "Users | refine",
+      "show": "#{{id}} Show User | refine",
+      "edit": "#{{id}} Edit User | refine",
+      "create": "Create new User | refine",
+      "clone": "#{{id}} Clone User | refine"
+    },
+    "posts": {
+      "list": "Posts | refine",
+      "show": "#{{id}} Show Post | refine",
+      "edit": "#{{id}} Edit Post | refine",
+      "create": "Create new Post | refine",
+      "clone": "#{{id}} Clone Post | refine"
     }
   },
   "table": {
     "actions": "Actions"
   }
-}
+}}
