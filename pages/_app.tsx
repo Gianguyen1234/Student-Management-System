@@ -8,8 +8,10 @@ import { GitHubBanner, Refine } from "@refinedev/core";
 import { RefineKbar, RefineKbarProvider } from "@refinedev/kbar";
 import routerProvider, {
   DocumentTitleHandler,
+  NavigateToResource,
   UnsavedChangesNotifier,
 } from "@refinedev/nextjs-router";
+import { BrowserRouter, Outlet, Route, Routes } from "react-router-dom";
 import type { NextPage } from "next";
 import { AppProps } from "next/app";
 
@@ -65,7 +67,7 @@ function MyApp({ Component, pageProps }: AppPropsWithLayout): JSX.Element {
 
   return (
     <>
-      <GitHubBanner />
+      <GitHubBanner/>
       <RefineKbarProvider>
         <ColorModeContextProvider>
           <AntdApp>
@@ -96,12 +98,34 @@ function MyApp({ Component, pageProps }: AppPropsWithLayout): JSX.Element {
                       canDelete: true,
                     },
                   },
+                  {
+                    name: "users",
+                    list: "/users",
+                    create: "/users/create",
+                    edit: "/users/edit/:id",
+                    show: "/users/show/:id",
+                    meta: {
+                      canDelete: true,
+                    },
+                  },
+                  {
+                    name: "posts",
+                    list: "/posts",
+                    create: "/posts/create",
+                    edit: "/posts/edit/:id",
+                    show: "/posts/show/:id",
+                    meta: {
+                      canDelete: true,
+                    },
+                  },
+
                 ]}
+                
                 options={{
                   syncWithLocation: true,
                   warnWhenUnsavedChanges: true,
                   projectId: "HZtsAI-S8TJZl-ju5IKS",
-                }}
+                }}              
               >
                 {renderComponent()}
                 <RefineKbar />
