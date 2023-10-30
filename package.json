@@ -1,7 +1,7 @@
 {
   "name": "student-management",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "scripts": {
     "dev": "cross-env NODE_OPTIONS=--max_old_space_size=4096 refine dev",
     "build": "refine build",
