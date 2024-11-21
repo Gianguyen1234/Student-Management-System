@@ -1,5 +1,5 @@
 # student-management-system
-#Introduction
+# Introduction
 
 ## Getting Started
 
